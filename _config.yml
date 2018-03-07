@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+
+title: [Lu Huang's Homepage]
+description: [This is the personal website for Lu.]
+
+
+show_downloads: [true]
+google_analytics: [UA-107266183-1]
