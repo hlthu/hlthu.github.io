@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% include baidu-analysis.html %}
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title">
