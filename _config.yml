@@ -5,7 +5,7 @@ url: "https://hlthu.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap
+  title: Lu Huang's Blog
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -14,7 +14,7 @@ theme_settings:
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <p>Lu Huang's Homepage.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  header_text_feature_image: assets/img/pexels/computer.jpeg
   footer_text: >
    <p>
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/hlthu/Type-on-Strap">Type on Strap</a>
