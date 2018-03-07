@@ -21,6 +21,11 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 
 # Publications
 
+<td style="vertical-align: top;">
+<big>[ <a href="https://scholar.google.com/citations?user=OjYWJ3sAAAAJ&hl=en">Google Scholar</a> ]</big>
+<br />
+</td>
+
 L. Huang, J. Xu, J. Sun, Y. Yang,  "An Improved Residual LSTM Architecture for Acoustic Modeling," 2017 2nd International Conference on Computer and Communication Systems (ICCCS), Krakow, Poland, 2017, pp. 101-105. doi: 10.1109/CCOMS.2017.8075276. Included in [IEEE Xplore](http://ieeexplore.ieee.org/document/8075276/). 
 
 J. Zhang, L. Huang, J. Sun,  "Keyword Spotting with Long Short-Term Memory Neural Network Architectures," 2017 International Conference on Computer, Electronics and Communication Engineering (CECE), Sanya, China, 2017, pp. 58-64. doi: 10.12783/dtcse/cece2017/14374. Published by [DEStech Transactions on Computer Science and Engineering](http://dpi-proceedings.com/index.php/dtcse/article/view/14374). 
