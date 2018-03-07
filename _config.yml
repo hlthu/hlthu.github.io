@@ -13,13 +13,13 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Lu Huang</p>
+     <p>Lu Huang @THUEE</p>
      <p>To Share, To Improve!</p>
-     <p>Department of Electronic Engineering, Tsinghua University</p>
+     #<p>Department of Electronic Engineering, Tsinghua University</p>
   header_text_feature_image: assets/img/pexels/computer.jpeg
   footer_text: >
    <p>
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/hlthu/Type-on-Strap">Type on Strap</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with Type on Strap
    </p>
    <p>Copyrights &copy; 2016-2017 Lu Huang</p>
 
