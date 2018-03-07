@@ -13,7 +13,9 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Lu Huang's Homepage.</p>
+     <p>Lu Huang</p>
+     <p>To Share, To Improve!</p>
+     <p>Department of Electronic Engineering, Tsinghua University</p>
   header_text_feature_image: assets/img/pexels/computer.jpeg
   footer_text: >
    <p>
