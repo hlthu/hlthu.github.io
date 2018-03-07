@@ -16,7 +16,10 @@ theme_settings:
      <p>Lu Huang's Homepage.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
+   <p>
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/hlthu/Type-on-Strap">Type on Strap</a>
+   </p>
+   <p>Copyrights &copy; 2016-2017 Lu Huang</p>
 
   # Icons
   rss: false  # Make sure you created a feed.xml with feed.xml layout
@@ -47,7 +50,7 @@ theme_settings:
   google_analytics: UA-107266183-1
   disqus_shortname: huanglu13
   katex: true # Enable if using math markup
-  portfolio: true
+  portfolio: false
   search: true
   tags: true
   
