@@ -23,7 +23,7 @@ theme_settings:
    <p>Copyrights &copy; 2016-2017 Lu Huang</p>
 
   # Icons
-  rss: false  # Make sure you created a feed.xml with feed.xml layout
+  rss: true  # Make sure you created a feed.xml with feed.xml layout
   email_address: huanglu.th@gmail.com
   behance:
   bitbucket:
