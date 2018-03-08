@@ -21,10 +21,7 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 
 # Publications
 
-<td style="vertical-align: top;">
-<big>[ <a href="https://scholar.google.com/citations?user=OjYWJ3sAAAAJ&hl=en">Google Scholar</a> ]</big>
-<br />
-</td>
+[[Google Scholar](https://scholar.google.com/citations?user=OjYWJ3sAAAAJ&hl=en)]
 
 L. Huang, J. Xu, J. Sun, Y. Yang,  "An Improved Residual LSTM Architecture for Acoustic Modeling," 2017 2nd International Conference on Computer and Communication Systems (ICCCS), Krakow, Poland, 2017, pp. 101-105. doi: 10.1109/CCOMS.2017.8075276. Included in [IEEE Xplore](http://ieeexplore.ieee.org/document/8075276/). 
 
@@ -33,3 +30,8 @@ J. Zhang, L. Huang, J. Sun,  "Keyword Spotting with Long Short-Term Memory Neura
 # Patents
 
 黄露, 杨毅, 孙甲松(清华大学). 一种残差长短期记忆循环神经网络的声学模型建模方法. 中国, [CN107293288 A(公开号)](https://www.google.com/patents/CN107293288A?cl=zh). 2017-10-24.
+
+# More
+To get more news about me, you can subscribe my WeChat Offical Account.
+
+![wechat](assets/img/huanglu_thu.jpg)
