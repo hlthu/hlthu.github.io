@@ -5,6 +5,26 @@ tags: [Kaldi, ASR]
 ---
 本文主要参考的是 [kaldi-asr.org](http://kaldi-asr.org/doc/kaldi_for_dummies.html#kaldi_for_dummies_language)，主要讲述的是用自己的录音来构建一个数字串识别系统。
 
+本文将主要分为以下几个部分：
+
+- [录制语音](#%E5%BD%95%E5%88%B6%E8%AF%AD%E9%9F%B3)
+- [数据准备](#%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)
+    - [声学数据](#%E5%A3%B0%E5%AD%A6%E6%95%B0%E6%8D%AE)
+        - [声学训练数据准备](#%E5%A3%B0%E5%AD%A6%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)
+            - [`spk2gender`](#spk2gender)
+            - [`wav.scp`](#wavscp)
+            - [`text`](#text)
+            - [`utt2spk`](#utt2spk)
+        - [声学测试数据准备](#%E5%A3%B0%E5%AD%A6%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)
+        - [语料库](#%E8%AF%AD%E6%96%99%E5%BA%93)
+    - [语言数据](#%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE)
+        - [`lexicon.txt	`](#lexicontxt)
+        - [`nonsilence_phones.txt`](#nonsilencephonestxt)
+        - [`silence_phones.txt`](#silencephonestxt)
+        - [`optional_silence.txt`](#optionalsilencetxt)
+- [环境准备](#%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87)
+- [编写运行脚本](#%E7%BC%96%E5%86%99%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC)
+- [运行脚本](#%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC)
 # 录制语音
 
 这里是英文数字串识别，因此需要一些用英语朗读数字的语音。我录制了 128 个语音文件，分别是两个人朗读，其中每个文件只包含三个数字。这 128 文件中 80 个用于训练， 48 个用于测试。并且训练数据和测试数据都被分成了 8 部分（可以假装成 8 个人），每部分分别 10 个 和 6 个。读者可以到[我的 GitHub ](https://hlthu.github.io/public/downloads/numbers-en.zip)上下载这些语音数据。训练集和测试集的前五个目录是我(男)朗读，后面三个是女士朗读的。
