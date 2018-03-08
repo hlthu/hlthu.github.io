@@ -34,4 +34,4 @@ J. Zhang, L. Huang, J. Sun,  "Keyword Spotting with Long Short-Term Memory Neura
 # More
 To get more news about me, you can subscribe my WeChat Offical Account.
 
-![wechat](assets/img/huanglu_thu.jpg)
+![wechat](/assets/img/huanglu_thu.jpg)
