@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kaldi 构建一个简单的英文数字串识别系统
+title: "Kaldi构建一个简单的英文数字串识别系统"
 tags: [Kaldi, ASR]
 ---
 
