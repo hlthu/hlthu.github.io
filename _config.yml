@@ -51,7 +51,7 @@ theme_settings:
   google_analytics: "UA-107266183-1"
   disqus_shortname: huanglu13
   katex: true # Enable if using math markup
-  portfolio: true
+  portfolio: false
   search: true
   tags: true
   
