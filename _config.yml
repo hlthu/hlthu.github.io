@@ -5,47 +5,51 @@ url: "https://hlthu.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap
+  title: Lu Huang's Blog
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Lu Huang's Blog" # used by search engines
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+     <p>Lu Huang @THUEE</p>
+     <p>To Share, To Improve!</p>
+  header_text_feature_image: assets/img/thu.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   <p>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with Type on Strap
+   </p>
+   <p>Copyrights &copy; 2016-2017 Lu Huang</p>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: huanglu.th@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: huanglu13
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "hlthu"
   google_plus:
   instagram:
   keybase:
-  linkedin:  # Full URL
+  linkedin: http://www.linkedin.com/in/hlthu/
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: # "twitter username"
+  twitter: "hlthu"
   vimeo:
   wordpress:
   youtube:
 
   # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-107266183-1"
+  disqus_shortname: huanglu13
   katex: true # Enable if using math markup
   portfolio: true
   search: true
