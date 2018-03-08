@@ -1,4 +1,4 @@
-# hlthu.github.io [![Build Status](https://travis-ci.org/Sylhare/Type-on-Strap.svg?branch=master)](https://travis-ci.org/Sylhare/Type-on-Strap) [![Gem Version](https://badge.fury.io/rb/type-on-strap.svg)](https://badge.fury.io/rb/type-on-strap)
+# hlthu.github.io [![Build Status](https://travis-ci.org/hlthu/hlthu.github.io.svg?branch=master)](https://travis-ci.org/hlthu/hlthu.github.io) [![Gem Version](https://badge.fury.io/rb/type-on-strap.svg)](https://badge.fury.io/rb/type-on-strap)
 
 
 My Homepage, https://hlthu.github.io.
