@@ -1,9 +1,7 @@
 ---
 layout: post
-title: ubuntu16.04在线安装kaldi
-date: 2017-01-01 22:27:30 +08:00
-category: "kaldi"
-tags: [asr, kaldi]
+title: ubuntu 16.04在线安装Kaldi
+tags: [ASR, kaldi]
 ---
 
 Kaldi是一个语音识别工具，使用C++开发，基于Apache 许可证，目的是为语音识别研究者提供。本文将介绍在线安装kaldi，为之后的离线安装kaldi做一个准备和基础。

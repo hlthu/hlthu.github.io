@@ -1,7 +1,7 @@
 ---
 layout: post
 title: kaldi 笔记：部分术语词汇表
-tags: [kaldi, asr]
+tags: [kaldi, ASR]
 ---
 
 本文主要参考的是 [kaldi-asr.org](http://kaldi-asr.org/doc/glossary.html)，主要介绍我们在使用 kaldi 的时候可能想要了解的术语词汇表。当然这里介绍的只是一部分例子，相信不久 [kaldi-asr.org](http://kaldi-asr.org/doc/glossary.html) 就会增加新的内容。

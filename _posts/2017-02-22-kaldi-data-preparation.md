@@ -1,7 +1,7 @@
 ---
 layout: post
 title: kaldi 笔记：数据准备
-tags: [kaldi, asr]
+tags: [kaldi, ASR]
 ---
 
 本文主要参考的是 [kaldi-asr.org](http://kaldi-asr.org/doc/data_prep.html)，主要介绍我们在使用 kaldi 的时候可能用到的数据处理的脚本以及相关文件的信息。

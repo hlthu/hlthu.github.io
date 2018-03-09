@@ -3,7 +3,7 @@ layout: post
 title: 深度学习与语音识别：语音识别的基本原理
 date: 2017-02-08 18:35:30 +08:00
 category: "ASR"
-tags: [asr]
+tags: [ASR]
 ---
 
 
