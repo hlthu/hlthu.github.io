@@ -3,7 +3,7 @@ layout: post
 title: 在ubuntu下编译安装opencv
 date: 2016-12-29 22:27:30 +08:00
 category: "opencv"
-tags: [ubuntu, opencv]
+tags: [ubuntu, OpenCV]
 ---
 
 本文介绍了如何在linux(本文是ubunut 16.04系统)下编译安装opencv(本文采用的opencv版本是3.1.0)，包括安装流程和可能遇到的问题，这些大部分都是基于我个人的经验总结和opencv官网。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: kaldi 笔记：阅读和修改代码
-tags: [tkaldi, timit]
+tags: [kaldi, timit]
 ---
 
 本文翻译和总结与 [kaldi.org](http://kaldi-asr.org/doc/tutorial_code.html)。本文主要介绍 kaldi 代码的组织结构以及依赖结构，以及一些修改和调试代码的经验。如果想更深入了解，可以点击[这里](http://kaldi-asr.org/doc/index.html)。

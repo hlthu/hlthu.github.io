@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kaldi构建一个简单的英文数字串识别系统"
-tags: [Kaldi, ASR]
+tags: [kaldi, ASR]
 ---
 本文主要参考的是 [kaldi-asr.org](http://kaldi-asr.org/doc/kaldi_for_dummies.html#kaldi_for_dummies_language)，主要讲述的是用自己的录音来构建一个数字串识别系统。
 
