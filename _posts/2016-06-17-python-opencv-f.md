@@ -169,7 +169,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Geometric_Trans/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Geometric_Trans/)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果。显示结果如下：
@@ -179,5 +179,4 @@ cv2.destroyAllWindows()
 # 参考
 - http://docs.opencv.org/2.4/modules/imgproc/doc/geometric_transformations.html
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Geometric_Trans/
-- http://hlthu.github.io/blogs/PythonOpenCV/16-Geometric_Trans.html
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Geometric_Trans/

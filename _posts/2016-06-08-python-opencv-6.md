@@ -74,7 +74,7 @@ while(1):
 cap.release()
 cv2.destroyAllWindows() 
 ```
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Read_Vedio/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Read_Vedio/)。
 
 # 运行结果
 本次使用的测试视频为：https://raw.githubusercontent.com/hlthu/Python-OpenCV-Learn/master/test.avi
@@ -87,5 +87,4 @@ cv2.destroyAllWindows()
 
 # 参考
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Read_Vedio/
-- http://hlthu.github.io/blogs/PythonOpenCV/07-Read_Vedio.html
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Read_Vedio/

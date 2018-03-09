@@ -85,7 +85,7 @@ while(1):
 
 cv2.destroyAllWindows()
 ```
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Draw_Mouse/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Draw_Mouse/)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果。显示结果如下：
@@ -96,5 +96,4 @@ cv2.destroyAllWindows()
 # 参考
 - http://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Draw_Mouse/
-- http://hlthu.github.io/blogs/PythonOpenCV/10-Draw_Mouse.html
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Draw_Mouse/

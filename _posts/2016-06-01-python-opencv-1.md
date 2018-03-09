@@ -78,7 +78,7 @@ cv2.waitKey (0)
 cv2.destroyAllWindows() 
 ```
 
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/OpenCV_test)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/OpenCV_test)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果，结果如下：

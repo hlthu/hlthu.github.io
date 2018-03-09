@@ -110,7 +110,7 @@ cv2.imshow("Img", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Bit_Operation/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Bit_Operation/)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果。显示结果如下：
@@ -120,5 +120,4 @@ cv2.destroyAllWindows()
 
 # 参考
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Bit_Operation/
-- http://hlthu.github.io/blogs/PythonOpenCV/13-Bit_Operation.html
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Bit_Operation/
