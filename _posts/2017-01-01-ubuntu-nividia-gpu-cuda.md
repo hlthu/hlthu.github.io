@@ -65,16 +65,13 @@ sudo reboot
     nvidia-smi
     nvcc -V
 
-命令行的执行结果如下。
-
-![检测驱动](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/cuda/cuda-1.jpeg)
+命令行的执行结果没报错即成功。
 
 # 3. 安装cuda
 
 ## 3.1 下载cuda
 到[参考4](https://developer.nvidia.com/cuda-downloads)所在的网址下载cuda8.0，根据自己的系统信息选择相应的版本，请选择runfile(local)类型，比较大。
 
-![下载cuda8.0](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/cuda/cuda-2.jpg)
 
 ## 3.2 安装CUDA
 进入到刚才下载的cuda8.0目录，执行

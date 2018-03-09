@@ -4,7 +4,7 @@ title: Using LSTM to Generate a Story
 tags: [lstm]
 ---
 
-之前简单介绍过 LSTM，[网址](https://hlthu.github.io/2017/05/30/understand-lstm/)，本文将利用 LSTM 构建一个故事生成的模型。
+之前简单介绍过 LSTM，[网址](https://hlthu.github.io/2017/05/30/understand-lstm.html)，本文将利用 LSTM 构建一个故事生成的模型。
 
 # 数据及其预处理
 

@@ -13,17 +13,17 @@ tags: [asr]
 
 首先，我们知道声音实际上是一种波。常见的mp3等格式都是压缩格式，必须转成非压缩的纯波形文件来处理，比如Windows PCM文件，也就是俗称的wav文件。wav文件里存储的除了一个文件头以外，就是声音波形的一个个点了。下图是一个波形的示例。
 
-![](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/asr/2017-02-08-2/1.jpg)
+![](https://pic2.zhimg.com/80/c58a25274bcc8788831e6100e9e366fd_hd.jpg)
 
 在开始语音识别之前，有时需要把首尾端的静音切除，降低对后续步骤造成的干扰。这个静音切除的操作一般称为VAD，需要用到信号处理的一些技术。要对声音进行分析，需要对声音分帧，也就是把声音切开成一小段一小段，每小段称为一帧。分帧操作一般不是简单的切开，而是使用移动窗函数来实现，这里不详述。帧与帧之间一般是有交叠的，就像下图这样：
 
-![](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/asr/2017-02-08-2/2.jpg)
+![](https://pic7.zhimg.com/80/554db0c9107727aa1e31a62cca782ada_hd.jpg)
 
 图中，每帧的长度为25毫秒，每两帧之间有25-10=15毫秒的交叠。我们称为以帧长25ms、帧移10ms分帧。分帧后，语音就变成了很多小段。但波形在时域上几乎没有描述能力，因此必须将波形作变换。常见的一种变换方法是提取MFCC特征，根据人耳的生理特性，把每一帧波形变成一个多维向量，可以简单地理解为这个向量包含了这帧语音的内容信息。这个过程叫做声学特征提取。实际应用中，这一步有很多细节，声学特征也不止有MFCC这一种，具体这里不讲。
 
 至此，声音就成了一个12行（假设声学特征是12维）、N列的一个矩阵，称之为观察序列，这里N为总帧数。观察序列如下图所示，图中，每一帧都用一个12维的向量表示，色块的颜色深浅表示向量值的大小。
 
-![](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/asr/2017-02-08-2/3.jpg)
+![](https://pic4.zhimg.com/80/c5cc0131dc6d38e871953eea0792f7db_hd.jpg)
 
 接下来就要介绍怎样把这个矩阵变成文本了。首先要介绍两个概念：
 
@@ -36,12 +36,12 @@ tags: [asr]
 2. 第二步，把状态组合成音素。
 3. 第三步，把音素组合成单词。如下图所示：
 
-![](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/asr/2017-02-08-2/4.jpg)
+![](https://pic1.zhimg.com/80/beee2a3ce7b1b56de362c9015e5b8ccd_hd.jpg)
 
 图中，每个小竖条代表一帧，若干帧语音对应一个状态，每三个状态组合成一个音素，若干个音素组合成一个单词。也就是说，只要知道每帧语音对应哪个状态了，语音识别的结果也就出来了。那每帧音素对应哪个状态呢？有个容易想到的办法，看某帧对应哪个状态的概率最大，那这帧就属于哪个状态。比如下面的示意图，这帧在状态S3上的条件概率最大，因此就猜这帧属于状态S3。
 
 
-![](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/asr/2017-02-08-2/5.jpg)
+![](https://pic3.zhimg.com/80/61d5bff9c239e7519e92d98f5bc44689_hd.jpg)
 
 那这些用到的概率从哪里读取呢？有个叫“声学模型”的东西，里面存了一大堆参数，通过这些参数，就可以知道帧和状态对应的概率。获取这一大堆参数的方法叫做“训练”，需要使用巨大数量的语音数据，训练的方法比较繁琐，这里不讲。
 
@@ -58,7 +58,7 @@ tags: [asr]
 
 搭建状态网络，是由单词级网络展开成音素网络，再展开成状态网络。语音识别过程其实就是在状态网络中搜索一条最佳路径，语音对应这条路径的概率最大，这称之为“解码”。路径搜索的算法是一种动态规划剪枝的算法，称之为Viterbi算法，用于寻找全局最优路径。
 
-![](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/asr/2017-02-08-2/6.jpg)
+![](https://pic2.zhimg.com/80/91e4cb3b716b63d5e18ba710a1a2d770_hd.jpg)
 
 这里所说的累积概率，由三部分构成，分别是：
 

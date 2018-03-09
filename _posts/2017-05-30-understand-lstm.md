@@ -59,10 +59,6 @@ LSTMs also have this chain like structure, but the repeating module has a differ
 
 ![](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM2-notation.png)
 
-Or you can see the figure below:
-
-![](https://hlthu.github.io/images/posts/nn/lstm.PNG)
-
 The processed input:
 
 $$

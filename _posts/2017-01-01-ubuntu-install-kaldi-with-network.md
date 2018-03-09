@@ -67,10 +67,7 @@ INSTALL文件指示我们应该：
 
     ./extras/check_dependencies.sh
 
- 结果如下：
- 
- ![依赖](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/kaldi/kaldi-1.jpg)
-提示我缺少`libtool`、`subversion`，还需要执行
+ 结果提示我缺少`libtool`、`subversion`，还需要执行
 
     sudo ln -s -f bash /bin/sh
 
@@ -93,25 +90,13 @@ INSTALL文件指示我们应该：
 
     make -j8
 
-最终显示编译成功：
-
- ![make](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/kaldi/kaldi-2.jpg)
-
-
-
-
+最终显示编译成功。
 
 
 ## 2.4 编译其他工具
 先应该让tools/和tools/extras/目录下的.sh文件具有执行权限：
 
     chmod u+x *.sh extras/*.sh
-
-
-
-
-
-
 
 然后依次执行
 
@@ -121,13 +106,7 @@ INSTALL文件指示我们应该：
     ./install_srilm.sh 
 
 
-最后一句先会提示下面的错误：
-
-![srilm1](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/kaldi/kaldi-3.jpg)
-
-需要自己到提示的网站下载srilm.tgz，放到tools/目录下。接着重新执行还是会报错：
-
-![srilm2](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/kaldi/kaldi-4.jpg)
+最后一句先会提示下面的错误：需要自己到提示的网站下载srilm.tgz，放到tools/目录下。
 
 
 提示没有安装`gawk`，执行下面命令后重新安装。
@@ -169,9 +148,7 @@ INSTALL文件内容如下：
     make depend -j8
     make -j8
 
-执行完如下：
-
-![src](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/kaldi/kaldi-5.jpg)
+显示done即完成。
 
 
 # 4. 运行yseno例子
@@ -179,11 +156,6 @@ INSTALL文件内容如下：
 
     cd ../egs/yesno/s5/
     ./run.sh
-
-执行结果如下：
-
-![yesno](https://raw.githubusercontent.com/hlthu/hlthu.github.io/master/images/posts/kaldi/kaldi-6.jpg)
-
 
 结果表明字错误率(WER)为0%，即正确率为100%。
 

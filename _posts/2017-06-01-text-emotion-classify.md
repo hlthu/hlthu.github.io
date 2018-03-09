@@ -4,7 +4,7 @@ title: Using LSTM for Text Emotion Classification
 tags: [lstm]
 ---
 
-之前简单介绍过 LSTM，[网址](https://hlthu.github.io/2017/05/30/understand-lstm/)，本文将利用 LSTM 来实现一个文本情感分类模型，是基于 Keras 和 Python 的。
+之前简单介绍过 LSTM，[网址](https://hlthu.github.io/2017/05/30/understand-lstm.html)，本文将利用 LSTM 来实现一个文本情感分类模型，是基于 Keras 和 Python 的。
 
 # 概要
 
