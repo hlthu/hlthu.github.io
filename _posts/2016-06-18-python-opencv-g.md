@@ -25,7 +25,7 @@ t1 = cv2.getTickCount()
 ```
 
 ## 执行代码
-我这里执行的是之前绘制直方图的代码，请参考[我的主页](http://hlthu.github.io/blogs/PythonOpenCV/04-Hist_Display.html)、[我的博客](http://blog.csdn.net/huanglu_thu13/article/details/52332716)和[GitHub](https://github.com/hlthu/Python/tree/master/Python_OpenCV/Hist_Display)。
+我这里执行的是之前绘制直方图的代码，请参考[我的主页](http://hlthu.github.io/blogs/PythonOpenCV/04-Hist_Display.html)、[我的博客](http://blog.csdn.net/huanglu_thu13/article/details/52332716)和[GitHub](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Hist_Display)。
 
 
 ## 结束时间
@@ -135,7 +135,7 @@ if __name__ == '__main__':
 	cv2.waitKey(0)    
 	cv2.destroyAllWindows()
 ```
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python/tree/master/Python_OpenCV/Run_Time/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Run_Time/)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果。显示结果如下：
@@ -146,5 +146,5 @@ if __name__ == '__main__':
 
 # 参考
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python/tree/master/Python_OpenCV/Run_Time/
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Run_Time/
 - http://hlthu.github.io/blogs/PythonOpenCV/14-Run_Time.html

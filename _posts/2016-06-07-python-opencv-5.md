@@ -98,7 +98,7 @@ plot.show()
 cv2.waitKey(0)    
 cv2.destroyAllWindows() 
 ```
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python/tree/master/Python_OpenCV/Matplotlib_Display/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Matplotlib_Display/)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果。
@@ -119,5 +119,5 @@ cv2.destroyAllWindows()
 
 # 参考
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python/tree/master/Python_OpenCV/Matplotlib_Display/
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Matplotlib_Display/
 - http://stackoverflow.com/questions/15072736/extracting-a-region-from-an-image-using-slicing-in-python-opencv/15074748#15074748

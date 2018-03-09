@@ -110,7 +110,7 @@ cv2.destroyAllWindows()
 
 ```
 
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python/tree/master/Python_OpenCV/Color_Track/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Color_Track/)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果。显示结果如下：
@@ -122,5 +122,5 @@ cv2.destroyAllWindows()
 # 参考
 - http://blog.csdn.net/taily_duan/article/details/51506776
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python/tree/master/Python_OpenCV/Color_Track/
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Color_Track/
 - http://hlthu.github.io/blogs/PythonOpenCV/15-Color_Track.html

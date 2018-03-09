@@ -112,7 +112,7 @@ if __name__ == '__main__':
 	
 	cv2.destroyAllWindows()
 ```
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python/tree/master/Python_OpenCV/Track_Bar/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Track_Bar/)。
 
 # 运行结果
 在命令行进入该源程序所在目录后，运行`python main.py`后即可显示结果。显示结果如下：
@@ -123,5 +123,5 @@ if __name__ == '__main__':
 # 参考
 - http://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python/tree/master/Python_OpenCV/Track_Bar/
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Track_Bar/
 - http://hlthu.github.io/blogs/PythonOpenCV/11-Track_Bar.html

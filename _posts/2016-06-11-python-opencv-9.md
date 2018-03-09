@@ -94,7 +94,7 @@ cap.release()
 out.release()
 cv2.destroyAllWindows() 
 ```
-也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python/tree/master/Python_OpenCV/Save_Vedio/)。
+也可以参考我的GitHub上的，点击[这里](https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Save_Vedio/)。
 
 # 运行结果
 本次输出的视频为：https://raw.githubusercontent.com/hlthu/Python-OpenCV-Learn/master/Save_Vedio/output.avi
@@ -107,5 +107,5 @@ cv2.destroyAllWindows()
 
 # 参考
 - OpenCV-Python-Toturial-中文版.pdf
-- https://github.com/hlthu/Python/tree/master/Python_OpenCV/Save_Vedio/
+- https://github.com/hlthu/Python-OpenCV-Learn/tree/master/Python_OpenCV/Save_Vedio/
 - http://hlthu.github.io/blogs/PythonOpenCV/08-Save_Vedio.html
