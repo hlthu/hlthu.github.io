@@ -14,7 +14,7 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 |Time|Education|
 |----|----|
 |Aug 2017 ~ Jul 2022 | Master of Engineering at THUEE|
-!Aug 2013 ~ Jul 2017 | Bachelor of Engineering at THUEE|
+|Aug 2013 ~ Jul 2017 | Bachelor of Engineering at THUEE|
 
 # Publications
 
