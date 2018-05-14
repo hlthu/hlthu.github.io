@@ -23,7 +23,10 @@ tags: [PIT,ASR]
 
 ## 2、2017年Trans上进一步改进
 
+![paper2](/assets/img/blog/PIT-4.png)
+
 主要是将损失函数变到句子级别（而不是以前的帧级别），这样可以解决speaker tracing的问题。
+
 
 （未完待续，最近比较忙，没写完。。。）
 
