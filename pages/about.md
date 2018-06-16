@@ -23,11 +23,17 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 
 [[Google Scholar](https://scholar.google.com/citations?user=OjYWJ3sAAAAJ&hl=en)]
 
+## 2018
+
 Gaofeng Cheng, Dan Povey, Lu Huang, Ji Xu, Sanjeev Khudanpur, Yonghong Yan. "Output-Gate Projected Gated Recurrent Unit for Speech Recognition," In Proceedings of [Interspeech 2018](http://interspeech2018.org/accepted-papers.html) (Accepted).
+
+## 2017
 
 L. Huang, J. Xu, J. Sun, Y. Yang,  "An Improved Residual LSTM Architecture for Acoustic Modeling," 2017 2nd International Conference on Computer and Communication Systems (ICCCS), Krakow, Poland, 2017, pp. 101-105. doi: 10.1109/CCOMS.2017.8075276. Included in [IEEE Xplore](http://ieeexplore.ieee.org/document/8075276/).
 
 J. Zhang, L. Huang, J. Sun,  "Keyword Spotting with Long Short-Term Memory Neural Network Architectures," 2017 International Conference on Computer, Electronics and Communication Engineering (CECE), Sanya, China, 2017, pp. 58-64. doi: 10.12783/dtcse/cece2017/14374. Published by [DEStech Transactions on Computer Science and Engineering](http://dpi-proceedings.com/index.php/dtcse/article/view/14374).
+
+All the papers can be written online using [Online LaTeX Editor ShareLaTeX](https://www.sharelatex.com?r=c8d61497&rm=d&rs=b).
 
 # Patents
 
