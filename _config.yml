@@ -24,7 +24,7 @@ theme_settings:
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: huanglu.th@gmail.com # Full email address, e.g. "sam@example.com"
+  email_address: huanglu[dot]th[at]gmail[dot]com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
