@@ -33,7 +33,7 @@ L. Huang, J. Xu, J. Sun, Y. Yang,  "An Improved Residual LSTM Architecture for A
 
 J. Zhang, L. Huang, J. Sun,  "Keyword Spotting with Long Short-Term Memory Neural Network Architectures," 2017 International Conference on Computer, Electronics and Communication Engineering (CECE), Sanya, China, 2017, pp. 58-64. doi: 10.12783/dtcse/cece2017/14374. Published by [DEStech Transactions on Computer Science and Engineering](http://dpi-proceedings.com/index.php/dtcse/article/view/14374).
 
-All the papers can be written online using [Online LaTeX Editor ShareLaTeX](https://www.sharelatex.com?r=c8d61497&rm=d&rs=b).
+All the papers can be written online using online latex editor: [ShareLaTeX](https://www.sharelatex.com?r=c8d61497&rm=d&rs=b) or [Overleaf](https://www.overleaf.com/signup?ref=84156d2cd419).
 
 # Patents
 
