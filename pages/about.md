@@ -19,6 +19,10 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 |Aug 2017 ~ Jul 2020 | Master of Engineering at THUEE|
 |Aug 2013 ~ Jul 2017 | Bachelor of Engineering at THUEE|
 
+# Selected Talks
+
+2018-08 PIT in ICASSP ([pdf](https://github.com/hlthu/hlthu.github.io/blob/master/public/downloads/pit-huanglu-201808.pdf))
+
 # Publications
 
 [[Google Scholar](https://scholar.google.com/citations?user=OjYWJ3sAAAAJ&hl=en)]
