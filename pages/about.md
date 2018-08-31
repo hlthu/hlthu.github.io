@@ -31,7 +31,7 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 
 Gaofeng Cheng, Lu Huang, Jiasong Sun, Yonghong Yan. "Bidirectional LSTM with Extended Input Context", In Proceedings of [ISCSLP 2018](http://iscslp2018.org/).
 
-Gaofeng Cheng, Dan Povey, Lu Huang, Ji Xu, Sanjeev Khudanpur, Yonghong Yan. "Output-Gate Projected Gated Recurrent Unit for Speech Recognition," In Proceedings of [Interspeech 2018](http://interspeech2018.org/accepted-papers.html).
+Gaofeng Cheng, Dan Povey, Lu Huang, Ji Xu, Sanjeev Khudanpur, Yonghong Yan. "Output-Gate Projected Gated Recurrent Unit for Speech Recognition," In Proceedings of [Interspeech 2018](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1403.pdf).
 
 ## 2017
 
