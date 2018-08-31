@@ -21,7 +21,7 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 
 # Selected Talks
 
-2018-08 PIT in ICASSP ([pdf](https://github.com/hlthu/hlthu.github.io/blob/master/public/downloads/pit-huanglu-201808.pdf))
+2018-08 PIT in ICASSP ([pdf](https://hlthu.github.io/public/downloads/pit-huanglu-201808.pdf))
 
 # Publications
 
