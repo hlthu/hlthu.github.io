@@ -23,6 +23,9 @@ My research focuses on Artificial Neural Networks (especially recurrent neural n
 
 2018-08 PIT in ICASSP ([pdf](https://hlthu.github.io/public/downloads/pit-huanglu-201808.pdf))
 
+201809 End-to-End ASR for Mandarin Chinese ([pdf](https://hlthu.github.io/public/downloads/Interspeech_2018_e2e.pdf))
+
+
 # Publications
 
 [[Google Scholar](https://scholar.google.com/citations?user=OjYWJ3sAAAAJ&hl=en)]
