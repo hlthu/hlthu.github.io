@@ -10,7 +10,7 @@ tags: [PIT,ASR]
 
 ## 0. 背景
 
-首先多说话人是指录音中含有多个说话人的语音，时域表达是 $y_t=\sum_{s=1}^{S}x_t^s$，其中 $x_t^s$ 是第 $s$ 个说话人的语音，$S$ 是总共说话人数。之前的工作多事是基于时频特征去做，也就是时域信号做短时傅里叶变换 (STFT) ，然后从混合信号的 STFT $Y_t(f)$ 中分理出需要估计各个说话人的 STFT $X_t^s(f)$。
+首先多说话人是指录音中含有多个说话人的语音，时域表达是 $$y_t=\sum_{s=1}^{S}x_t^s$$，其中 $$x_t^s$$ 是第 $$s$$ 个说话人的语音，$$S$$ 是总共说话人数。之前的工作多事是基于时频特征去做，也就是时域信号做短时傅里叶变换 (STFT) ，然后从混合信号的 STFT $$Y_t(f)$$ 中分理出需要估计各个说话人的 STFT $$X_t^s(f)$$。
 
 PS：目前有 Columbia University 的研究者 Yi Luo等实现了基于时域的分离方法，而且目前的效果要好于基于频域的方法，请搜索 TasNet (Time-domain Audio Separation
 Network)，之后有时间再介绍一下这几篇文章。
@@ -21,7 +21,7 @@ Network)，之后有时间再介绍一下这几篇文章。
 
 2018年ICASSP上，Dong Yu发表了一篇文章，讲的是将 PIT 用于语音分离。该文提出了一种结构用于估计各个说话人的 STFT，如下图为两个说话人的情况
 
-![arch](//assets/img/blog/PIT-2.png)
+![arch](/assets/img/blog/PIT-2.png)
 
 损失函数为
 
@@ -37,7 +37,7 @@ Network)，之后有时间再介绍一下这几篇文章。
 
 ![cost-upit1](/assets/img/blog/PIT-5.png)
 
-其中 $B=T\times F \times S$是对所有帧、频点和说话人的归一化系数，而 $\hat{\mathbf{M}_s}$ 则是估计到的第 $s$ 个人的 Mask，注意这个 Mask 是个 $T\times F$ 的矩阵，覆盖了所有帧和频点；而 $\phi^*$ 则是使得匹配的 loss 最小的那个 assignment：
+其中 $$B=T\times F \times S$$ 是对所有帧、频点和说话人的归一化系数，而 $$\hat{\mathbf{M}_s}$$ 则是估计到的第 $$s$$ 个人的 Mask，注意这个 Mask 是个 $$T\times F$$ 的矩阵，覆盖了所有帧和频点；而 $$\phi^*$$ 则是使得匹配的 loss 最小的那个 assignment：
 
 ![cost-upit2](/assets/img/blog/PIT-6.png)
 
@@ -55,7 +55,7 @@ Loss 函数也换成了基于 CE 的：
 
 ![pit-asr3](/assets/img/blog/PIT-9.png)
 
-其中 $\textbf{O}_t^s$ 是第 $s$ 个人 $t$ 时刻的神经网络输出，而 $l_t^{s^,}$ 则是使得误差最小的 permutation 对应的标注。同样这个 loss 是整句算一个 loss，然后回传，因此对于一句话，每个时刻的 permutation 被强制约束为一致的。
+其中 $$\textbf{O}_t^s$$ 是第 $$s$$ 个人 $$t$$ 时刻的神经网络输出，而 $$l_t^{s^,}$$ 则是使得误差最小的 permutation 对应的标注。同样这个 loss 是整句算一个 loss，然后回传，因此对于一句话，每个时刻的 permutation 被强制约束为一致的。
 
 ## 4. 2018 年以来的一系列改进
 
