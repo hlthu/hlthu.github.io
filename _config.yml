@@ -20,7 +20,7 @@ theme_settings:
    <p>
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with Type on Strap
    </p>
-   <p>Copyrights &copy; 2016-2017 Lu Huang</p>
+   <p>Copyrights &copy; 2016-2018 Lu Huang</p>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -91,5 +91,5 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
-#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
