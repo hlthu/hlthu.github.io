@@ -47,9 +47,3 @@ All the papers can be written online using online latex editor: [ShareLaTeX](htt
 # Patents
 
 黄露, 杨毅, 孙甲松(清华大学). 一种残差长短期记忆循环神经网络的声学模型建模方法. 中国, [CN107293288 A(公开号)](https://www.google.com/patents/CN107293288A?cl=zh). 2017-10-24.
-
-# More
-
-To get more news about me, you can subscribe my WeChat Offical Account.
-
-![wechat](/assets/img/huanglu_thu.jpg)
