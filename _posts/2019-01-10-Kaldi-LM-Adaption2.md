@@ -2,7 +2,7 @@
 layout: post
 feature-img: "assets/img/pexels/computer.jpeg"
 img: "assets/img/pexels/computer.jpeg"
-title: 利用Kaldi做语言模型的自适应
+title: 利用Kaldi做语言模型的自适应2
 tags: [Kaldi,LM]
 ---
 
