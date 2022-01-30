@@ -6,7 +6,7 @@ url: "https://hlthu.github.io"
 theme_settings:
   # Meta
   title: Lu Huang's Blog
-  avatar: assets/img/triangle.svg
+  avatar: assets/img/22684042.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "Lu Huang's Blog" # used by search engines
@@ -15,7 +15,7 @@ theme_settings:
   header_text: > #two or three lines to describe your site
      <p>Lu Huang</p>
      <p>To Share, To Improve!</p>
-  header_text_feature_image: assets/img/22684042.jpg
+  header_text_feature_image: assets/img/thu.jpg
   footer_text: >
    <p>
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with Type on Strap
