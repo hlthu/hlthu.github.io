@@ -1,7 +1,4 @@
-# hlthu.github.io [![Build Status](https://travis-ci.org/hlthu/hlthu.github.io.svg?branch=master)](https://travis-ci.org/hlthu/hlthu.github.io) [![Gem Version](https://badge.fury.io/rb/type-on-strap.svg)](https://badge.fury.io/rb/type-on-strap)
-
-
-My Homepage, https://hlthu.github.io.
+Lu Huang's Homepage, https://hlthu.github.io.
 
 # Welcome
 
