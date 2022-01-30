@@ -13,9 +13,9 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Lu Huang</p>
+     <p>Lu Huang @THUEE</p>
      <p>To Share, To Improve!</p>
-  header_text_feature_image: assets/img/22684042.jpg
+  header_text_feature_image: assets/img/thu.jpg
   footer_text: >
    <p>
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with Type on Strap
